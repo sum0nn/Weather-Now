@@ -49,6 +49,10 @@ function performWeatherSearch() {
                     case 'Mist':
                         image.src = 'images/mist.gif';
                         break;
+                    
+                    case 'Haze':
+                        image.src = 'images/mist.gif';
+                        break;
                     default:
                         image.src = 'images/location_not_found.gif';
                 }
